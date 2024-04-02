@@ -120,13 +120,13 @@
 
 }
 
-h2 {
+.site2 h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: calc(1.9vw + 22px);
     font-weight: 700;
     line-height: 133%;
     text-align: center;
-    margin-top: 167px;
+    margin-top: calc(7.4vw + 60px);
     color: #504178;
 }
 
@@ -134,7 +134,7 @@ h2 {
     width: calc(2.8vw + 300px);
     height: calc(-3.8vw + 139px);
     top: 1079px;
-    left: 161px;
+    left: calc(7.2v + 19px);
     gap: 0;
     border-radius: 30px;
     border: 3px solid #4C3D74;
@@ -152,7 +152,6 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    margin-top: 46px;
     margin-top: 43px;
 }
 
@@ -177,7 +176,7 @@ h2 {
     font-weight: 700;
     line-height: 150%;
     color: #4C3D74;
-    margin-left: 138px;
+    margin-left: calc(8.1vw + 22px);
     width: 511px;
     height: 60px;
     top: 1260px;
@@ -225,7 +224,7 @@ h2 {
     line-height: 133%;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 168px;
+    padding-top: calc(7.5vw + 60px);
 }
 
 .price1 p {
@@ -253,18 +252,18 @@ h2 {
    flex-direction: row;
    gap: 23px;
    align-items: left;
-   padding-bottom: 30px;
+   padding-bottom: calc(0.2vw + 27px);
 }
 
 .prices2 {
     display: flex;
     flex-direction: row;
     gap: 42px;
-    padding-bottom: 30px;
+    padding-bottom: calc(-5.4vw + 107px);
 }
 
 .prices {
-    margin-left: 138px;
+    margin-left: calc(6.6vw + 42px);
     margin-right: 118px;
     padding-top: 38px;
 }
@@ -296,9 +295,9 @@ h2 {
     font-weight: 700;
     line-height: 150%;
     color: #FFFFFF;
-    padding-bottom: 38px;
+    padding-bottom: calc(0.9vw + 25px);
     padding-right: 45px;
-    padding-top: 31px;
+    padding-top: calc(-0.4vw + 37px);
     width: calc(35.3vw + 152px);
     height: calc(-14vw + 322px);
     top: 2175px;
@@ -355,17 +354,17 @@ h2 {
 }
 
 .about_wrapper {
-    padding-left: 139px;
+    padding-left: calc(6.6vw + 44px);
     padding-right: 197px;
     display: flex;
 }
 
 .aboutPhoto {
-    padding-top: 61px;
+    padding-top: calc(1.9vw + 33px);
 }
 
 .aboutNums {
-    padding-top: 20px;
+    padding-top: calc(-0,5vw + 27px);
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
@@ -374,6 +373,16 @@ h2 {
 
 .aboutResult {
     padding-top: 18px;
+}
+
+.site4 h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: calc(1.9vw + 22px);
+    font-weight: 700;
+    line-height: 133%;
+    color: #504178;
+    text-align: center;
+    padding-top: calc(7.2vw + 64px);
 }
 
 .ProgramList ol {
@@ -393,13 +402,13 @@ h2 {
 }
 
 .ProgramList {
-    padding-left: 140px;
-    padding-right: 148px;
+    padding-left: calc(8.1vw + 24px);
+    padding-right: calc(8.1vw + 24px);
 }
 
 .ProgramConfrim {
     padding-top: 50px;
-    padding-left: 140px;
+    padding-left: calc(8.1vw + 24px);
     display: flex;
 }
 
@@ -542,13 +551,13 @@ h2 {
 }
 
 .service_wrapper {
-    padding-left: 136px;
+    padding-left: calc(7.4vw + 29px);
     padding-right: 139px;
     padding-top: 46px;
 }
 
 .site5 h2 {
-    padding-top: 168px;
+    padding-top: calc(7.5vw + 60px);
 }
 
 .service button {
@@ -628,6 +637,16 @@ h2 {
     padding-left: 36px;
 }
 
+.site6 h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 133%;
+    color: #504178;
+    padding-left: calc(12.4vw + -4.2px);
+    padding-top: calc(7.5vw + 42px);
+}
+
 .question1 ol li {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
@@ -645,6 +664,7 @@ h2 {
 .question2 {
     display: flex;
     padding-top: calc(2.7vw + 23px);
+    flex-wrap: wrap;
 }
 
 .quePhoto1 {
