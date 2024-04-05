@@ -120,97 +120,100 @@
 
 }
 
+.site2 {
+    padding-left: calc(7.3vw + 18px);
+    padding-right: calc(8.5vw + 18px);
+    padding-top: calc(7.4vw + 60px);
+    padding-bottom: 182px;
+}
+
 .site2 h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: calc(1.9vw + 22px);
     font-weight: 700;
     line-height: 133%;
     text-align: center;
-    margin-top: calc(7.4vw + 60px);
     color: #504178;
 }
 
-.teacher button {
-    width: calc(2.8vw + 300px);
-    height: calc(-3.8vw + 139px);
+.teacher {
+    width: 341px;
+    height: 138px;
     top: 1079px;
-    left: calc(7.2v + 19px);
-    gap: 0;
+    gap: 35px;
     border-radius: 30px;
     border: 3px solid #4C3D74;
     background-color: #F2EEF7;
+    position: relative;
+    top:20px;
+}
 
+.teacher img {
+    width: 89px;
+    height: 89px;
+    position: absolute;
+    left: -50px;
+    top: 15px;
+} 
+
+.teacher p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 150%;
-}
-
-
-.teachers {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-items: center;
-    margin-top: 43px;
-}
-
-.teacher span {
-    font-weight: 700;
+    line-height: 150%;  
     color: #4C3D74;
 }
 
-.teacher p {
-    width: 236px;
-    height: 72px;
-    top: 1114px;
-    left: 619px;
-    gap: 0px;
-    opacity: 0px;
-    padding-left: 43px;
+.asd {
+    font-weight: 700;
 }
 
-.teacherInfo {
+.profInfo {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: calc(0.4vw + 14px);
     font-weight: 700;
     line-height: 150%;
     color: #4C3D74;
-    margin-left: calc(8.1vw + 22px);
+    margin-left: 33px;
     width: 511px;
     height: 60px;
-    top: 1260px;
-    left: 138px;
 }
 
-.purple1 {
-    width: calc(-5.4vw + 322px);
+.profBtn button {
+    width: 245px;
     height: 60px;
     top: 1260px;
     left: 682px;
     gap: 0px;
     border-radius: 30px;
     background-color: #A387C4;
-    border: #A387C4;
-    text-align: center;
-    
+    border: 1px solid #A387C4;
+
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 133%;
-    color: #FFFFFF;
+    color: #FFFFFF; 
+    margin-right: 110px;
 }
 
-.teacher {
-    position: relative;
-    gap: 26px;
+.profPhoto {
+    width: calc(2.7vw + 204px);
+    height: calc(2.7vw + 204px);
 }
 
-.teacher img {
-    width: 89px;
-    position: absolute;
-    left: -50px;
-    top: 15%;
+.profBottom {
+    margin-top: 43px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profTop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 65px;
+    margin-top: 46px;
 }
 
 .site3 {
@@ -247,25 +250,13 @@
     color: #FFFFFF;
 }
 
-.prices1 {
-   display: flex;
-   flex-direction: row;
-   gap: 23px;
-   align-items: left;
-   padding-bottom: calc(0.2vw + 27px);
-}
-
-.prices2 {
-    display: flex;
-    flex-direction: row;
-    gap: 42px;
-    padding-bottom: calc(-5.4vw + 107px);
-}
-
 .prices {
     margin-left: calc(6.6vw + 42px);
     margin-right: 118px;
     padding-top: 38px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: ;
 }
 
 .price1 {
@@ -357,10 +348,13 @@
     padding-left: calc(6.6vw + 44px);
     padding-right: 197px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .aboutPhoto {
     padding-top: calc(1.9vw + 33px);
+    width: calc(9.4vw + 264px);
+    height: calc(11.5vw + 325px);  
 }
 
 .aboutNums {
