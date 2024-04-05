@@ -256,7 +256,6 @@
     padding-top: 38px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: ;
 }
 
 .price1 {
