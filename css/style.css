@@ -146,6 +146,9 @@
     background-color: #F2EEF7;
     position: relative;
     top:20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .teacher img {
@@ -162,6 +165,10 @@
     font-weight: 500;
     line-height: 150%;  
     color: #4C3D74;
+    width: 252px;
+    height: 72px;
+    padding-top: 35px;
+    padding-bottom: 31px;
 }
 
 .asd {
