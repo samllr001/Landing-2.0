@@ -124,7 +124,6 @@
     padding-left: calc(7.3vw + 18px);
     padding-right: calc(8.5vw + 18px);
     padding-top: calc(7.4vw + 60px);
-    padding-bottom: 182px;
 }
 
 .site2 h2 {
@@ -206,13 +205,13 @@
 
 .profPhoto {
     width: calc(2.7vw + 204px);
-    height: calc(2.7vw + 204px);
 }
 
 .profBottom {
     margin-top: 43px;
     display: flex;
     flex-wrap: wrap;
+    gap: 43px;
 }
 
 .profTop {
@@ -475,6 +474,8 @@
     padding-top: 50px;
     padding-left: calc(8.1vw + 24px);
     display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
 }
 
 .ProgramBtn1 {
@@ -517,6 +518,15 @@
     padding-top: 50px;
 }
 
+
+.site5 {
+    background-color: #4C3D74;
+    padding-left: calc(7.4vw + 29px);
+    padding-right: calc(7.7vw + 28px);
+    padding-top: calc(7.5vw + 60px);
+    padding-bottom: calc(8.1vw + 61px);
+}
+
 .site5 h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: calc(1.9vw + 22px);
@@ -524,131 +534,111 @@
     line-height: 133%;
     text-align: center;
     color: #FFFFFF;
+    padding-bottom: calc(0.5vw + 39px);
 }
 
-.site5 {
-    background-color: #4C3D74;
+.tarifs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
 }
 
-.site5 h2 {
-    margin: 0;
-}
-
-.service {
+.tarif {
     width: calc(4.9vw + 294px);
     height: 529px;
-    top: 4340px;
-    left: 136px;
-    gap: 0px;
     border-radius: 30px;
     border: 3px solid#4C3D74;
     background-color: #F2EEF7;
+    padding-left: calc(1.4vw + 16px);
+    padding-top: 57px;
+    position: relative;
 }
 
-.service h3 {
+.tarif h3 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 150%;
     color: #4C3D74;
-    padding-top: 57px;
-    padding-left: 36px;
-    padding-right: 91px;
     padding-bottom: 15px;
 }
 
-.service .Photo1 {
-    width: 128px;
-    height: 128px;
-    top: 4302px;
-    left: 409px;
-    position: absolute;
-    left: 300px;
-    top: -40px;
-}
-
-.services {
-    position: relative;
-    display: flex;
-    gap: 38px;
-    flex-wrap: wrap;
-}
-
-.service ol li {
-    padding-left: 36px;
+.tarif .gh {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #4C3D74;
+    padding-top: 18px;
     padding-bottom: 8px;
-    padding-right: 43px;
+}
+
+
+.tarif ol li {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 150%;
     color: #4C3D74;
+    list-style: none;
+    padding-bottom: 8px;
 }
 
-.service .Photo2 {
-    width: 128px;
-    height: 128px;
-    top: 4302px;
-    left: 409px;
-    position: absolute;
-    left: 700px;
-    top: -40px;
+.tarifInfo {
+    display: flex;
+    gap: 55px;
 }
 
-.service .Photo3 {
-    width: 128px;
-    height: 128px;
-    top: 4302px;
-    left: 409px;
-    position: absolute;
-    left: 1100px;
-    top: -40px;
+.tarifInfo p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #4C3D74;
 }
 
-.service p {
+.tarifInfo .oi {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 150%;
     color: #4C3D74;
-    padding-left: 36px;
-    padding-top: 18px;
 }
 
-.service_wrapper {
-    padding-left: calc(7.4vw + 29px);
-    padding-right: 139px;
-    padding-top: 46px;
-}
-
-.site5 h2 {
-    padding-top: calc(7.5vw + 60px);
-}
-
-.service button {
+.tarif button {
     width: 245px;
     height: 60px;
-    top: 4836px;
-    left: 189px;
-    gap: 0px;
     border-radius: 30px;
     background-color: #A387C4;
     border: 1px solid #A387C4;
-    
+
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 133%;
     color: #FFFFFF;
-    position: relative;
-    left: 50px;
-    top: 0;
+    position: absolute;
+    bottom: -30px;
+    left: 70px;
 }
+
+
+
+.tarif img {
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
 
 .services2 {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 66px;
     padding-bottom: 177px;
+    gap: 25px;
 }
 
 .serviceInfo p {
@@ -657,20 +647,26 @@
     font-weight: 700;
     line-height: 150%;
     color: #FFFFFF;
-    padding-left: 30px;
+    width: calc(25.2vw + 209px);
+    height: calc(-4.7vw + 129px);
+}
 
-    width: calc(25.2vw + 210px);
-    height: calc(-4.7vw + 140px);
-    top: 4962px;
-    left: 236px;
+.serviceInfo img {
+    width: 67px;
+    height: 67px;
+}
+
+.serviceInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .serviceBtn button {
     width: 245px;
     height: 60px;
-    top: 4968px;
-    left: 849px;
-    gap: 0px;
     border-radius: 30px;
     background-color:#4C3D74;
     border: 4px solid #A387C4;
@@ -680,8 +676,6 @@
     font-weight: 700;
     line-height: 133%;
     color: #FFFFFF;
-    margin-left: 40px;
-    margin-right: 44px;
 }
 
 .serviceLabel {
@@ -690,7 +684,8 @@
     font-weight: 700;
     line-height: 150%;
     color: #FFFFFF;
-    padding-top: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .service h4 {
@@ -730,18 +725,17 @@
     display: flex;
     padding-top: calc(2.7vw + 23px);
     flex-wrap: wrap;
+    gap: 34px;
+    margin-left: calc(8.1vw + 24px);
 }
 
-.quePhoto1 {
-    width: 46px;
-    height: 46px;
-    top: 5888px;
-    left: 140px;
-    padding-left: calc(8.1vw + 24px);
-    padding-right: calc(0.6vw + 20px);
-}
 
 .queInfo {
+    display: flex;
+    gap: 28px;
+}
+
+.queInfo p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -754,12 +748,14 @@
     left: 214px;
 }
 
+.queInfo img {
+    width: 46px;
+    height: 46px;
+}
+
 .queBtn1 {
     width: 245px;
     height: 60px;
-    top: 5881px;
-    left: 584px;
-    gap: 0px;
     border-radius: 30px;
     background-color: #A387C4;
     border: 1px solid #A387C4;
@@ -798,12 +794,19 @@
     padding-top: calc(4.1vw + 66px);
     padding-bottom: calc(4.4vw + 75px);
     display: flex;
-    gap: 320px;
+    flex-wrap: wrap;
 }
 
-.finalCenter  {
-    gap: 40px;
+.finalLeft {
+    margin-right: 300px;
 }
+
+
+.finalCenter {
+    margin-right: 300px;
+}
+
+
 .new_div {
     background-color: #251933;
     content:url(../img/Бургер.png);
