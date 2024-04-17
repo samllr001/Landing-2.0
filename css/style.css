@@ -7,6 +7,7 @@
     padding-top: calc(1.6vw + 83px);
     padding-right: 72px;
     background-color:  #4C3D74;
+    background-size: cover;
 }
 
 .Desc1 {
@@ -25,6 +26,7 @@
     line-height: 133%;
     color: #FFFFFF;
     display: flex;
+    flex-wrap: wrap;
     position: absolute;
     margin-left: 499px;
     gap: 27px;
@@ -108,21 +110,13 @@
     margin-right: 72px;
 }
 
-@media(max-width:414px) {
-    .Desc2 {
-        display: none;  
-    }
-    .Desc2 .new_div {
-        width: 40px;
-        height: 20px;
-    }
 
-}
 
 .site2 {
     padding-left: calc(7.3vw + 18px);
     padding-right: calc(8.5vw + 18px);
     padding-top: calc(7.4vw + 60px);
+    background-size: cover;
 }
 
 .site2 h2 {
@@ -227,6 +221,7 @@
     padding-top: calc(7.5vw + 60px);
     padding-bottom: calc(6.4vw + 83px);
     background-color: #4C3D74;
+    background-size: cover;
 }
 
 .site3 .er {
@@ -524,6 +519,7 @@
     padding-right: calc(7.7vw + 28px);
     padding-top: calc(7.5vw + 60px);
     padding-bottom: calc(8.1vw + 61px);
+    background-size: cover;
 }
 
 .site5 h2 {
@@ -777,6 +773,7 @@
 
 .site7 {
     background-color: #251933;
+    background-size: cover;
 }
 
 .site7 p {
@@ -806,15 +803,11 @@
 }
 
 
-.new_div {
-    background-color: #251933;
-    content:url(../img/Бургер.png);
-    width: 40px;
-    height: 20px;
+.site4 {
+    background-size: cover;
 }
 
-@media(min-width: 414px) {
-    section {
-        background-size: cover;
-    }
+.site6 {
+    background-size: cover;
 }
+
